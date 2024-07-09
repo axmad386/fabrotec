@@ -23,6 +23,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "cmdk": "^1.0.0",
+    "embla-carousel-react": "^8.1.6",
     "jotai": "^2.8.0",
     "js-cookie": "^3.0.5",
     "lucide-react": "^0.372.0",
