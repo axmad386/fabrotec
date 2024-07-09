@@ -73,19 +73,6 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
-    fontSize: {
-      // ubah token size di utopia.css
-      xs: "var(--size-10-12)",
-      sm: "var(--size-12-14)",
-      base: "var(--size-14-16)",
-      lg: "var(--size-16-18)",
-      xl: "var(--size-18-20)",
-      "2xl": "var(--size-22-24)",
-      "3xl": "var(--size-28-30)",
-      "4xl": "var(--size-34-36)",
-      "6xl": "var(--size-58-60)",
-      "7xl": "var(--size-70-72)",
-    },
   },
   plugins: [tailwindAnimate],
 } satisfies Config;

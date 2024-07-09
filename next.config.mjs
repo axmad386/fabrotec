@@ -1,14 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    async redirects() {
-        return [
-          {
-            source: '/',
-            destination: '/admin',
-            permanent: true,
-          },
-        ]
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "*",
       },
+    ],
+  }
 };
 
 export default nextConfig;
